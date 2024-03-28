@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './interface/components/header.tsx'
 import './index.css'
-import { MainComponent } from './interface/components/main.tsx'
+import { OrionPage } from './interface/components/orion'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Header />
-    <MainComponent />
+    <OrionPage />
   </React.StrictMode>,
 )
