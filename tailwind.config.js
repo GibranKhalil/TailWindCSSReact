@@ -6,7 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-
+      backgroundImage: {
+        '01': "url('./src/assets/fusca.jpg')"
+      },
+      fontSize:{
+        'bigger': "200px"
+      },
+      minWidth:{
+        '100': "450px"
+      }
     },
   },
   plugins: [],

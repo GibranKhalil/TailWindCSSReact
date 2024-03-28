@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { OrionPage } from './interface/components/orion'
+import { CarShowPage } from './interface/components/carShow'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <OrionPage />
+    <CarShowPage />
   </React.StrictMode>,
 )
