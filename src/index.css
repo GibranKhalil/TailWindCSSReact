@@ -11,3 +11,7 @@ body{
         display: none;
     }
 }
+
+.myClass{
+    @apply bg-black text-white
+}

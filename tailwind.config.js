@@ -14,7 +14,7 @@ export default {
       },
       minWidth:{
         '100': "450px"
-      }
+      },
     },
   },
   plugins: [],
